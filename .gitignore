@@ -1,0 +1,59 @@
+# Python (бэкенд)
+Backend/__pycache__/
+Backend/.env
+Backend/*.pyc
+Backend/alembic/versions/*.py
+!Backend/alembic/versions/.gitkeep
+
+# Node.js (фронтенд)
+Frontend/node_modules/
+Frontend/.expo/
+Frontend/.env
+Frontend/npm-debug.*
+Frontend/*.log
+
+
+# dependencies
+node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Native
+.kotlin/
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+
+# typescript
+*.tsbuildinfo
+
+# generated native folders
+/ios
+/android
+
+# Общие
+.DS_Store
+Thumbs.db
+*.tmp
