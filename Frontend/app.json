@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Read",
+    "slug": "Read",
+    "scheme": "readedu",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": ""
+    },
+    "plugins": [
+      "expo-secure-store",
+      "expo-font",
+      "expo-router"
+    ],
+    "extra": {
+      "apiUrl": "http://192.168.31.224:5000"
+    }
+  }
+}
